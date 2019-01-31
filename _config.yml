@@ -3,12 +3,18 @@ title: Maverick UX
 subtitle: Visual Story Mapping for new technology
 email: hi@lilianthebrazilian.com
 description: A responsive site template designed by the one and only<br /> and released with the help of github.
-baseurl: "/maverick-ux"
+baseurl:
+permalink: "/:path"
 
 # Collections
 collections:
   authors:
     output: true
+  posts:
+    output: true
+  projects:
+    output: true
+    permalink: "/projects/:path/"
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -30,7 +36,9 @@ defaults:
   - scope:
       path: ""
     values:
-      layout: "default"
+      layout: page
+
+
 
 # Themes
 #theme: jekyll-theme-cayman
