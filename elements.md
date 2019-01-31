@@ -2,8 +2,10 @@
 layout: page
 title: Elements
 nav-menu: true
----
+intro: This is a a great introduction to this page
+page_title: Generic Stuff
 
+---
 <!-- Main -->
 <div id="main" class="alt">
 
