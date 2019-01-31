@@ -2,6 +2,10 @@ collections:
   authors:
     output: true
 
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
 defaults:
   - scope:
       permalink: "/writers/:title/"
