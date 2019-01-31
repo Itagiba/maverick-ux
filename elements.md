@@ -4,6 +4,7 @@ title: Elements
 nav-menu: true
 intro: This is a a great introduction to this page
 page_title: Generic Stuff
+cloudinary_image: ewallet.png
 
 ---
 <!-- Main -->
