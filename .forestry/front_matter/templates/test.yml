@@ -7,7 +7,7 @@ fields:
   name: cloudinary_image
   label: Cloudinary image
   description: specific cloudinary image field
-  hidden: true
+  hidden: false
 - type: textarea
   name: intro
   label: Introduction
