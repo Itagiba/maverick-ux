@@ -1,7 +1,26 @@
 ---
-label: Test
+label: Template Test
 hide_body: false
 is_partial: false
-fields: []
+fields:
+- type: text
+  name: cloudinary_image
+  label: Cloudinary image
+  description: specific cloudinary image field
+  hidden: true
+- type: textarea
+  name: intro
+  label: Introduction
+  description: Short paragraph describing this page
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: text
+  name: page_title
+  label: Page Title
+  description: What do you call this page
+  config:
+    required: true
 pages:
 - _posts/2019-01-31-kumkwat.md
