@@ -22,13 +22,11 @@ tiles-count: 6
 
 defaults:
   - scope:
-      permalink: "/writers/:title/"
       path: ""
       type: "authors"
     values:
       layout: "author"
   - scope:
-      permalink: "/blog/:title/"
       path: ""
       type: "posts"
     values:
